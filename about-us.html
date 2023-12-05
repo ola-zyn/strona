@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 shrink-to-fit=no"
+    />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Ctrl+Code</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Mouse+Memoirs&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="theme-colors.css" />
+    <link rel="stylesheet" href="card.css" />
+    <script src="script.js" defer></script>
+    <script src="theme.js" defer></script>
+    <script src="float-panel.js"></script>
+
+    <nav class="navbar fixed-top navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Offcanvas navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"
+                    >Strona główna</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Python
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="test-lesson.html">Temat 1</a></li>
+                    <li><a class="dropdown-item" href="#">Temat 2</a></li>
+                    <li><a class="dropdown-item" href="#">Temat 3</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Python filmy
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Temat 1</a></li>
+                    <li><a class="dropdown-item" href="#">Temat 2</a></li>
+                    <li><a class="dropdown-item" href="#">Temat 3</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    C++
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Temat 1</a></li>
+                    <li><a class="dropdown-item" href="#">Temat 2</a></li>
+                    <li><a class="dropdown-item" href="#">Temat 3</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    C++ filmy
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Temat 1</a></li>
+                    <li><a class="dropdown-item" href="#">Temat 2</a></li>
+                    <li><a class="dropdown-item" href="#">Temat 3</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about-us.html">O nas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    >Jakie środowiska programowania polecamy?</a
+                  >
+                </li>
+  
+                  <li class="nav-item">
+                  <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                      <input type="checkbox" id="checkbox" />
+                      <div class="slider round">
+                        <div class="sun">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="18"
+                            height="18"
+                            fill="yellow"
+                            class="bi bi-brightness-high-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+                            />
+                          </svg>
+                        </div>
+                        <div class="moon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="18"
+                            height="18"
+                            fill="white"
+                            class="bi bi-moon-stars-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278"
+                            />
+                            <path
+                              d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+  </head>
+
+  <body>
+   
+    <br/>
+    <br />
+    <br />
+    <div class="container">
+      <div class="col-10 offset-1 col-lg-8 offset-lg-2">
+        <img
+          src="https://cdn.glitch.global/7245122c-149e-4f8d-b647-1fd0743ab98f/logo1.png?v=1698946098237"
+          class="img-fluid col-10 offset-1 col-lg-8 offset-lg-2"
+          id="center-logo"
+        />
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="title-about-us">Parę słów o projekcie</h1>
+      <hr />
+      <div class="row">
+        <img
+          src="https://cdn.glitch.global/7245122c-149e-4f8d-b647-1fd0743ab98f/kot2.png?v=1699040873928"
+          class="img-fluid col-12 col-lg-6"
+        />
+
+        <div class="col-12 col-lg-6">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non
+            tempor enim, sit amet ultricies arcu. Mauris mollis mattis mi in
+            sollicitudin. Mauris vel cursus nulla. Pellentesque eu facilisis
+            nisi, quis eleifend mauris. Nullam sagittis mollis fermentum. Donec
+            rutrum sem mauris, sit amet aliquam tellus semper vitae. Vestibulum
+            ante ipsum primis in faucibus orci luctus et ultrices posuere
+            cubilia curae; Nunc arcu tellus, commodo ac venenatis non, tincidunt
+            vel augue. Aliquam aliquam lorem dolor. Maecenas ornare nisi at est
+            accumsan, quis egestas orci accumsan. Orci varius natoque penatibus
+            et magnis dis parturient montes, nascetur ridiculus mus. Curabitur
+            imperdiet, neque ac gravida sodales, lacus mi vestibulum est, non
+            faucibus turpis ante vitae ex. Proin vel metus ac dolor scelerisque
+            mattis nec at sapien. Sed sodales eu sem in sodales. Pellentesque
+            pharetra mattis pretium. Ut maximus rhoncus lacus, non ullamcorper
+            leo cursus eu. Suspendisse porta lacus sed placerat lobortis.
+            Integer sollicitudin ex vitae nunc dictum, condimentum feugiat sem
+            tincidunt. Sed vehicula diam aliquam elementum maximus. Cras sodales
+            tellus tincidunt, auctor urna a, sodales arcu. Aenean rhoncus
+            tincidunt lacus eu convallis. Vivamus ultrices finibus erat ac
+            egestas. Nam in tellus venenatis, suscipit mi non, suscipit massa.
+            Phasellus nec ultricies ex. Donec dapibus sem eu ligula cursus
+            eleifend. Class aptent taciti sociosqu ad litora torquent per
+            conubia nostra, per inceptos himenaeos. Proin at suscipit odio, sed
+            interdum ante. Duis tempor at ante suscipit sollicitudin. Phasellus
+            id tincidunt ante. Pellentesque
+          </p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="container">
+      <h1 class="title-about-us">Trochę o nas</h1>
+      <hr />
+      <div class="row">
+        <div class="card mb-3 col-lg-11 col-xl-10">
+          <div class="row g-0">
+            <div class="col-md-4 photo-us-box">
+              <img
+                src="https://cdn.glitch.global/7245122c-149e-4f8d-b647-1fd0743ab98f/kot2.png?v=1699040873928"
+                class="img-fluid col-12 us-photo"
+                alt="zdjecie"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h1 class="card-title us-name">imie</h1>
+                <h2 class="card-title us-subtitle">Robota</h2>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  non tempor enim, sit amet ultricies arcu. Mauris mollis mattis
+                  mi in sollicitudin. Mauris vel cursus nulla. Pellentesque eu
+                  facilisis nisi, quis eleifend mauris. Nullam sagittis mollis
+                  fermentum. Donec
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 col-lg-11 offset-lg-1 col-xl-10 offset-xl-2">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h1 class="card-title us-name">imie</h1>
+                <h2 class="card-title us-subtitle">Robota</h2>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  non tempor enim, sit amet ultricies arcu. Mauris mollis mattis
+                  mi in sollicitudin. Mauris vel cursus nulla. Pellentesque eu
+                  facilisis nisi, quis eleifend mauris. Nullam sagittis mollis
+                  fermentum. Donec
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 photo-us-box">
+              <img
+                src="https://cdn.glitch.global/7245122c-149e-4f8d-b647-1fd0743ab98f/kot2.png?v=1699040873928"
+                class="img-fluid col-12 us-photo"
+                alt="zdjecie"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------NIE USUWAĆ!!!!---------------------------------->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
